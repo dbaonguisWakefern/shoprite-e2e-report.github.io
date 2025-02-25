@@ -1,0 +1,570 @@
+14:29:29.086  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #20)
+14:29:29.087  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:29.092  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #21, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForShallowAccessibilityLabel","args":["Timeslot released successfully.",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}},{"type":"Double","value":4}]})
+14:29:29.092  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #21)...
+14:29:29.092  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForShallowAccessibilityLabel, [Timeslot released successfully., false]
+14:29:29.093  2254  2314 D Detox   : class androidx.test.espresso.Espresso, onView, [((view.getContentDescription() is "Timeslot released successfully." or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Timeslot released successfully.") and view has effective visibility <VISIBLE>)]
+14:29:29.093  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+14:29:29.093  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@122ae7d, not null, 4.0]
+14:29:29.094  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view ((view.getContentDescription() is "Timeslot released successfully." or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Timeslot released successfully.") and view has effective visibility <VISIBLE>)
+14:29:29.094  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #21)
+14:29:29.095  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:29.097  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #22, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForShallowAccessibilityLabel","args":["OK",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:29:29.097  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #22)...
+14:29:29.097  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForShallowAccessibilityLabel, [OK, false]
+14:29:29.097  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:29:29.097  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [((view.getContentDescription() is "OK" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "OK") and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@d26d9c3]
+14:29:29.712  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #22)
+14:29:29.712  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:29.763  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #23, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_home_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:29:29.763  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #23)...
+14:29:29.763  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_home_main_tab_button, false]
+14:29:29.763  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:29:29.763  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_home_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@6714fda]
+14:29:30.050  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.063  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.077  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.093  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.110  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.127  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.143  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.160  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.177  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.194  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.210  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.227  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.243  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.260  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.277  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:30.833  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #23)
+14:29:30.834  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:30.840  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #24, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_mode_selector",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:29:30.840  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #24)...
+14:29:30.840  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_mode_selector, false]
+14:29:30.840  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:29:30.840  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_mode_selector" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@932b002]
+14:29:32.117  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #24)
+14:29:32.117  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:32.121  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #25, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["fulfillment_selection_screen_shopping_mode_info_text",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":2}]})
+14:29:32.122  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #25)...
+14:29:32.122  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [fulfillment_selection_screen_shopping_mode_info_text, false]
+14:29:32.122  2254  2314 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>)]
+14:29:32.122  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:29:32.122  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@44ffc84, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 2.0]
+14:29:32.125  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>)
+14:29:32.361  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>)
+14:29:32.536  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>)
+14:29:32.695  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>)
+14:29:33.129  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.144  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.160  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.177  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.194  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.210  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.227  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:33.245  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:33.347  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>)
+14:29:33.347  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #25)
+14:29:33.348  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:33.350  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #26, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["fulfillment_selection_screen_shopping_mode_info_text",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"getAttributes","args":[]}}]})
+14:29:33.350  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #26)...
+14:29:33.350  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [fulfillment_selection_screen_shopping_mode_info_text, false]
+14:29:33.351  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxAction, getAttributes, []
+14:29:33.351  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "fulfillment_selection_screen_shopping_mode_info_text" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.GetAttributesAction@5863c06]
+14:29:33.501  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #26)
+14:29:33.501  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:33.505  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #27, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_mode_delivery_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:29:33.505  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #27)...
+14:29:33.505  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_mode_delivery_button, false]
+14:29:33.505  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:29:33.505  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_mode_delivery_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@e4400a7]
+14:29:34.613  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #27)
+14:29:34.613  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:34.616  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #28, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["address_item_use_this_address_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:29:34.616  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #28)...
+14:29:34.616  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [address_item_use_this_address_button, false]
+14:29:34.616  2254  2314 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "address_item_use_this_address_button" and view has effective visibility <VISIBLE>)]
+14:29:34.616  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:29:34.616  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@f07f821, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:29:34.617  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "address_item_use_this_address_button" and view has effective visibility <VISIBLE>)
+14:29:34.617  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #28)
+14:29:34.617  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:34.619  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #29, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["address_item_use_this_address_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:29:34.619  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #29)...
+14:29:34.619  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [address_item_use_this_address_button, false]
+14:29:34.619  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "address_item_use_this_address_button" and view has effective visibility <VISIBLE>)]
+14:29:34.619  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:29:34.619  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #0, of those matching MATCHER(view.getTag() is "address_item_use_this_address_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@46b607]
+14:29:34.672  2254  2254 I Detox   : UIManagerModule is busy
+14:29:34.680  2254  2254 I Detox   : UIManagerModule is busy
+14:29:35.188  2254  2254 I Detox   : UIManagerModule is busy
+14:29:35.628  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #29)
+14:29:35.628  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:35.631  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #30, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_select_store_index_0_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":2}]})
+14:29:35.631  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #30)...
+14:29:35.631  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_select_store_index_0_button, false]
+14:29:35.632  2254  2314 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "store_listing_select_store_index_0_button" and view has effective visibility <VISIBLE>)]
+14:29:35.632  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:29:35.632  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@290c432, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 2.0]
+14:29:35.633  2254  2254 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "store_listing_select_store_index_0_button" and view has effective visibility <VISIBLE>)
+14:29:35.633  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #30)
+14:29:35.633  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:35.636  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #31, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_select_store_index_0_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"getAttributes","args":[]}}]})
+14:29:35.636  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #31)...
+14:29:35.636  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_select_store_index_0_button, false]
+14:29:35.636  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxAction, getAttributes, []
+14:29:35.636  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "store_listing_select_store_index_0_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.GetAttributesAction@2e6a300]
+14:29:35.792  2254  2314 I DetoxWSClient: Sending out action 'invokeResult' (ID #31)
+14:29:35.792  2254  2314 I DetoxDispatcher: Done with action 'invoke'
+14:29:35.794  2254  2318 D DetoxWSClient: Received action 'invoke' (ID #32, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_select_store_index_0_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:29:35.794  2254  2314 I DetoxDispatcher: Handling action 'invoke' (ID #32)...
+14:29:35.794  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_select_store_index_0_button, false]
+14:29:35.794  2254  2314 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:29:35.794  2254  2314 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "store_listing_select_store_index_0_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@f4918e4]
+14:29:36.153  2254  2254 I Detox   : UIManagerModule is busy
+14:29:36.181  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:36.204  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:36.213  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:36.228  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:36.245  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:36.262  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:36.815  2254  2254 I Detox   : UIManagerModule is busy
+14:29:36.840  2254  2254 I Detox   : UIManagerModule is busy
+14:29:36.845  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.860  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.877  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.894  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.910  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.928  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.944  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.960  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.977  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:36.994  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.010  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.027  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.044  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.061  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.077  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.094  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.110  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.127  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.145  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.161  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.177  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.193  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.210  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.227  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.243  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.261  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.277  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.296  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.316  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.328  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.343  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.360  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.377  2254  2254 I Detox   : Network is busy, with 6 in-flight calls
+14:29:37.393  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.410  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.427  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.443  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.460  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.480  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.493  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.511  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.529  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.545  2254  2254 I Detox   : Network is busy, with 5 in-flight calls
+14:29:37.561  2254  2254 I Detox   : Network is busy, with 4 in-flight calls
+14:29:37.579  2254  2254 I Detox   : Network is busy, with 3 in-flight calls
+14:29:37.594  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.612  2254  2254 I Detox   : Network is busy, with 3 in-flight calls
+14:29:37.627  2254  2254 I Detox   : Network is busy, with 3 in-flight calls
+14:29:37.643  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.660  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.678  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.694  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.710  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.727  2254  2254 I Detox   : Network is busy, with 2 in-flight calls
+14:29:37.743  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:37.760  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:37.777  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:37.794  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:37.810  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12009
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12009 could not be found.
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.637  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12037
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12037 could not be found.
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12065
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12065 could not be found.
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12093
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12093 could not be found.
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12203
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12203 could not be found.
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12147
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12147 could not be found.
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.642  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12175
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12175 could not be found.
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: Unable to update properties for view tag 12119
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: com.facebook.react.uimanager.IllegalViewOperationException: ViewManager for tag 12119 could not be found.
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.resolveViewManager(NativeViewHierarchyManager.java:111)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.NativeViewHierarchyManager.updateProperties(NativeViewHierarchyManager.java:138)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.UIImplementation.synchronouslyUpdateViewOnUIThread(UIImplementation.java:281)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.updateProps(NodesManager.java:589)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy.updateProps(NativeProxy.java:185)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NativeProxy$AnimationFrameCallback.onAnimationFrame(Native Method)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.onAnimationFrame(NodesManager.java:274)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager.access$000(NodesManager.java:68)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.swmansion.reanimated.NodesManager$1.doFrameGuarded(NodesManager.java:173)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:175)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:85)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEventSequence(UiControllerImpl.java:305)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.injectEvents(DetoxCustomTapper.kt:85)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.DetoxCustomTapper.sendTap(DetoxCustomTapper.kt:56)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:134)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.wix.detox.espresso.action.RNClickAction.perform(RNClickAction.java:57)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:429)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:297)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction.access$300(ViewInteraction.java:70)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:193)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:182)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.os.Looper.loop(Looper.java:317)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at java.lang.reflect.Method.invoke(Native Method)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:29:41.643  2254  2254 E unknown:NativeViewHierarchyManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:29:41.758  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.761  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.779  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.802  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.810  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.827  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.843  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.863  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.877  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.894  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.910  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.927  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.944  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.960  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.977  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:41.993  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.010  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.028  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.046  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.062  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.078  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.097  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.111  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.128  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.145  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.160  2254  2254 I Detox   : Network is busy, with 1 in-flight calls
+14:29:42.345  2254  2254 I Detox   : UIManagerModule is busy

@@ -1,0 +1,42 @@
+14:31:09.748  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #27)
+14:31:09.748  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:09.804  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #28, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_planning_list_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:09.804  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #28)...
+14:31:09.804  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_planning_list_main_tab_button, false]
+14:31:09.804  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:09.805  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_planning_list_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@e02a061]
+14:31:10.863  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #28)
+14:31:10.864  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:10.867  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #29, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["more_menu_header_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:31:10.867  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #29)...
+14:31:10.867  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [more_menu_header_button, false]
+14:31:10.867  3036  3089 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "more_menu_header_button" and view has effective visibility <VISIBLE>)]
+14:31:10.867  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:31:10.867  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@72cb5cf, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:31:10.870  3036  3036 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "more_menu_header_button" and view has effective visibility <VISIBLE>)
+14:31:11.018  3036  3089 I DetoxActionHandlers: Test exception
+14:31:11.018  3036  3089 I DetoxActionHandlers: java.lang.reflect.InvocationTargetException
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:443)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:405)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.types.ClassTarget.execute(ClassTarget.java:23)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.types.Target.invoke(Target.java:59)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:35)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:26)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:20)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.InvokeActionHandler.handle(DetoxActionHandlers.kt:54)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.executeAction$lambda$2$lambda$1(DetoxActionsDispatcher.kt:76)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$LZ3KRuVesIYkeXHJoNMi_yqw1HU(Unknown Source:0)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda0.run(Unknown Source:8)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:317)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor._init_$lambda$0(DetoxActionsDispatcher.kt:62)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$4eWOlZMqOQq2jbqiFbTCEP-pHOY(Unknown Source:0)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda1.run(Unknown Source:4)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.lang.Thread.run(Thread.java:1012)
+14:31:11.018  3036  3089 I DetoxActionHandlers: Caused by: androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+14:31:11.018  3036  3089 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+14:31:11.018  3036  3089 I DetoxActionHandlers:      Got: was null
+14:31:11.018  3036  3089 I DetoxActionHandlers: 

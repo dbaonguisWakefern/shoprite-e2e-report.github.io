@@ -1,0 +1,7 @@
+14:33:14.562  5103  5161 I DetoxWSClient: Sending out action 'invokeResult' (ID #3)
+14:33:14.562  5103  5161 I DetoxDispatcher: Done with action 'invoke'
+14:33:14.638  5103  5165 D DetoxWSClient: Received action 'invoke' (ID #4, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_products_tab",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:33:14.638  5103  5161 I DetoxDispatcher: Handling action 'invoke' (ID #4)...
+14:33:14.638  5103  5161 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_products_tab, false]
+14:33:14.639  5103  5161 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:33:14.639  5103  5161 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "store_listing_products_tab" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@40cbd4a]

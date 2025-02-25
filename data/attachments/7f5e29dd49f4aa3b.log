@@ -1,0 +1,121 @@
+14:33:39.015  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeSelection)
+14:33:39.015  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.015  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.016  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.016  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.016  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.016  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.016  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeCount)
+14:33:39.075  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeCount)
+14:33:39.075  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.075  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.075  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeTracking)
+14:33:39.094  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeTracking)
+14:33:39.094  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.094  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.095  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.095  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.095  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.095  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.095  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureSparkScan)
+14:33:39.102  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureSparkScan)
+14:33:39.102  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.102  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.102  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodePick)
+14:33:39.122  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodePick)
+14:33:39.122  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.122  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.122  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.122  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.122  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeFind)
+14:33:39.122  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeFind)
+14:33:39.123  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.123  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.123  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.123  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.123  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.123  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.123  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcode)
+14:33:39.128  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcode)
+14:33:39.128  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.128  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.128  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.128  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.131  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNHTMLtoPDF)
+14:33:39.131  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNHTMLtoPDF)
+14:33:39.131  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNPrint)
+14:33:39.131  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNPrint)
+14:33:39.136  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNWalletPasses)
+14:33:39.137  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNWalletPasses)
+14:33:39.137  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:33:39.137  5766  5844 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:33:39.138  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNRestart)
+14:33:39.138  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNRestart)
+14:33:39.154  5766  5844 D Detox.RNMarker: RUN_JS_BUNDLE_END (index.android.bundle)
+14:33:39.154  5766  5844 I ReactNativeJS: Running "ThryveAIGrocery
+14:33:39.156  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AccessibilityInfo)
+14:33:39.157  5766  5844 D Detox.RNMarker: CREATE_MODULE_START (AccessibilityInfo)
+14:33:39.158  5766  5844 D Detox.RNMarker: CREATE_MODULE_END (AccessibilityInfo)
+14:33:39.158  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (AccessibilityInfo)
+14:33:39.158  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AccessibilityManager)
+14:33:39.179  5766  5766 D Detox.RNMarker: CONTENT_APPEARED (ThryveAIGrocery)
+14:33:39.211  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (SourceCode)
+14:33:39.211  5766  5844 D Detox.RNMarker: CREATE_MODULE_START (SourceCode)
+14:33:39.211  5766  5844 D Detox.RNMarker: CREATE_MODULE_END (SourceCode)
+14:33:39.211  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (SourceCode)
+14:33:39.213  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBAnalyticsModule)
+14:33:39.213  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBAnalyticsModule)
+14:33:39.213  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBConfigModule)
+14:33:39.214  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBConfigModule)
+14:33:39.431  5766  5766 D DetoxRNLoading: Got new RN-context directly and immediately
+14:33:39.431  5766  5805 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+14:33:39.433  5766  5805 D DetoxRNHelpers: Native RN module resolution (class com.facebook.react.modules.storage.AsyncStorageModule): no such class
+14:33:39.434  5766  5821 W kefern.shoprite: Long monitor contention with owner Instr: androidx.test.runner.AndroidJUnitRunner (5805) at void com.wix.detox.DetoxMain.launchActivityOnCue(android.content.Context, com.wix.detox.ActivityLaunchHelper)(DetoxMain.kt:54) waiters=0 in void com.wix.detox.DetoxMain$setupActionHandlers$SynchronizedActionHandler.handle(java.lang.String, long) for 704ms
+14:33:39.435  5766  5766 I Detox   : Wait is over: App is now idle!
+14:33:39.435  5766  5821 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+14:33:39.435  5766  5821 I DetoxDispatcher: Done with action 'isReady'
+14:33:39.513  5766  5825 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["onboarding_screen_carousel",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]})
+14:33:39.513  5766  5821 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+14:33:39.513  5766  5821 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [onboarding_screen_carousel, false]
+14:33:39.514  5766  5821 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "onboarding_screen_carousel" and view has effective visibility <VISIBLE>)]
+14:33:39.514  5766  5821 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:33:39.514  5766  5821 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@f1a4311, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 10.0]
+14:33:39.515  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.527  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.543  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.560  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.577  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.594  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.611  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.627  5766  5766 I Detox   : Network is busy, with 1 in-flight calls
+14:33:39.644  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.660  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.677  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.695  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.710  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.727  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.744  5766  5766 I Detox   : Network is busy, with 5 in-flight calls
+14:33:39.749  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (FastImageView)
+14:33:39.749  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (FastImageView)
+14:33:39.760  5766  5766 I Detox   : Network is busy, with 4 in-flight calls
+14:33:39.777  5766  5766 I Detox   : Network is busy, with 3 in-flight calls
+14:33:39.794  5766  5766 I Detox   : Network is busy, with 3 in-flight calls
+14:33:39.812  5766  5766 I Detox   : Network is busy, with 3 in-flight calls
+14:33:39.847  5766  5766 I Detox   : Network is busy, with 2 in-flight calls
+14:33:39.874  5766  5766 I Detox   : UIManagerModule is busy
+14:33:39.932  5766  5766 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "onboarding_screen_carousel" and view has effective visibility <VISIBLE>)
+14:33:40.035  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (IntentAndroid)
+14:33:40.036  5766  5844 D Detox.RNMarker: CREATE_MODULE_START (IntentAndroid)
+14:33:40.036  5766  5844 D Detox.RNMarker: CREATE_MODULE_END (IntentAndroid)
+14:33:40.036  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (IntentAndroid)
+14:33:40.036  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (LinkingManager)
+14:33:40.036  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBDynamicLinksModule)
+14:33:40.036  5766  5844 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBDynamicLinksModule)
+14:33:40.072  5766  5844 I ReactNativeJS: couldn't retrieve token wakefernJWT: Unauthorized
+14:33:40.113  5766  5844 I ReactNativeJS: value for key "wakefernJWT" doesn't exist in storage, removal skipped
+14:33:41.070  5766  5798 E Metadata: Google Play services missing or without correct permission.
+14:33:41.094  5766  5766 I Detox   : UIManagerModule is busy
+14:33:41.112  5766  5766 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "onboarding_screen_carousel" and view has effective visibility <VISIBLE>)
+14:33:41.112  5766  5821 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+14:33:41.113  5766  5821 I DetoxDispatcher: Done with action 'invoke'
+14:33:41.115  5766  5825 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["onboarding_skip",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":

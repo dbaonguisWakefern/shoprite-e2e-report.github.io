@@ -1,0 +1,569 @@
+14:24:42.018 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #77, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_more_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:42.018 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #77)...
+14:24:42.018 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_more_main_tab_button, false]
+14:24:42.018 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:42.018 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_more_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@c99307]
+14:24:43.080 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #77)
+14:24:43.081 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:43.087 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #78, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["more_screen_item_debug_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:43.087 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #78)...
+14:24:43.087 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [more_screen_item_debug_button, false]
+14:24:43.087 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:43.087 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "more_screen_item_debug_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@3604c43]
+14:24:43.455 31452 31530 W ReactNativeJS: [AxiosError: Request failed with status code 401]
+14:24:44.263 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #78)
+14:24:44.263 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:44.270 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #79, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["e2e_debug_screen_login_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:44.270 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #79)...
+14:24:44.271 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [e2e_debug_screen_login_button, false]
+14:24:44.271 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:44.271 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "e2e_debug_screen_login_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@6608886]
+14:24:45.347 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #79)
+14:24:45.347 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:45.349 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #80, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["e2e_authentication_screen_email_textinput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"typeText","args":["srite001@yopmail.com"]}}]})
+14:24:45.349 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #80)...
+14:24:45.349 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [e2e_authentication_screen_email_textinput, false]
+14:24:45.349 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, typeText, [srite001@yopmail.com]
+14:24:45.349 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "e2e_authentication_screen_email_textinput" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.DetoxTypeTextAction@9cc72e]
+14:24:45.769 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.785 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.824 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.831 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.865 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.878 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.915 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.931 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.965 31452 31452 I Detox   : UIManagerModule is busy
+14:24:45.978 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.014 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.028 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.064 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.078 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.383 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.394 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.449 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.463 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.516 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.528 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.564 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.578 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.615 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.628 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.665 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.678 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.714 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.728 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.767 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.779 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.815 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.831 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.866 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.878 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.915 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.928 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.964 31452 31452 I Detox   : UIManagerModule is busy
+14:24:46.978 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.014 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.028 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.046 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #80)
+14:24:47.046 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:47.049 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #81, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["e2e_authentication_screen_password_textinput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"typeText","args":["P@ssw0rd"]}}]})
+14:24:47.049 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #81)...
+14:24:47.049 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [e2e_authentication_screen_password_textinput, false]
+14:24:47.049 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, typeText, [P@ssw0rd]
+14:24:47.050 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "e2e_authentication_screen_password_textinput" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.DetoxTypeTextAction@4661f41]
+14:24:47.483 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.550 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.600 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.632 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.666 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.699 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.732 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.768 31452 31452 I Detox   : UIManagerModule is busy
+14:24:47.780 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #81)
+14:24:47.780 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:47.783 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #82, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["e2e_authentication_screen_login_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]})
+14:24:47.783 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #82)...
+14:24:47.784 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [e2e_authentication_screen_login_button, false]
+14:24:47.784 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "e2e_authentication_screen_login_button" and view has effective visibility <VISIBLE>)]
+14:24:47.784 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:24:47.784 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@8d3ae18, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 10.0]
+14:24:47.785 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "e2e_authentication_screen_login_button" and view has effective visibility <VISIBLE>)
+14:24:47.785 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #82)
+14:24:47.785 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:47.788 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #83, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["e2e_authentication_screen_login_form_wrapper",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:47.788 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #83)...
+14:24:47.788 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [e2e_authentication_screen_login_form_wrapper, false]
+14:24:47.788 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:47.788 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "e2e_authentication_screen_login_form_wrapper" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@498ee56]
+14:24:48.195 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #83)
+14:24:48.195 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:50.204 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #84, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["e2e_authentication_screen_login_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:50.204 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #84)...
+14:24:50.204 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [e2e_authentication_screen_login_button, false]
+14:24:50.204 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:50.205 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "e2e_authentication_screen_login_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@6af722e]
+14:24:50.248 31452 31452 I Detox   : UIManagerModule is busy
+14:24:50.278 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.293 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.310 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.328 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.344 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.360 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.378 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.394 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.411 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.428 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:50.446 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:51.208 31452 31452 I Detox   : UIManagerModule is busy
+14:24:51.214 31452 31452 I Detox   : Network is busy, with 7 in-flight calls
+14:24:51.227 31452 31452 I Detox   : Network is busy, with 7 in-flight calls
+14:24:51.244 31452 31452 I Detox   : Network is busy, with 7 in-flight calls
+14:24:51.260 31452 31452 I Detox   : Network is busy, with 7 in-flight calls
+14:24:51.277 31452 31452 I Detox   : Network is busy, with 7 in-flight calls
+14:24:51.294 31452 31452 I Detox   : Network is busy, with 7 in-flight calls
+14:24:51.310 31452 31452 I Detox   : Network is busy, with 6 in-flight calls
+14:24:51.327 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.344 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.361 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.377 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.394 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.410 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.429 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.445 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.461 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.477 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.494 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.510 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.527 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.544 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.560 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.577 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.596 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.610 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.627 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.644 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.662 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.678 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.694 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.711 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.727 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.743 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.760 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.777 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.793 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.810 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.827 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.843 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.861 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.879 31452 31452 I Detox   : Network is busy, with 9 in-flight calls
+14:24:51.893 31452 31452 I Detox   : Network is busy, with 9 in-flight calls
+14:24:51.911 31452 31452 I Detox   : Network is busy, with 9 in-flight calls
+14:24:51.927 31452 31452 I Detox   : Network is busy, with 9 in-flight calls
+14:24:51.943 31452 31452 I Detox   : Network is busy, with 8 in-flight calls
+14:24:51.960 31452 31452 I Detox   : Network is busy, with 6 in-flight calls
+14:24:51.980 31452 31452 I Detox   : Network is busy, with 5 in-flight calls
+14:24:51.994 31452 31452 I Detox   : Network is busy, with 4 in-flight calls
+14:24:52.011 31452 31452 I Detox   : Network is busy, with 3 in-flight calls
+14:24:52.028 31452 31452 I Detox   : Network is busy, with 3 in-flight calls
+14:24:52.044 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.060 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.077 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.093 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.110 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.127 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.143 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.160 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.177 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.193 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:52.210 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:52.228 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:52.245 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:52.261 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:52.277 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:55.230 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #84)
+14:24:55.230 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:55.232 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #85, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["debug_screen_logout",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:24:55.232 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #85)...
+14:24:55.232 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [debug_screen_logout, false]
+14:24:55.232 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "debug_screen_logout" and view has effective visibility <VISIBLE>)]
+14:24:55.232 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:24:55.233 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@7e07679, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:24:55.233 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "debug_screen_logout" and view has effective visibility <VISIBLE>)
+14:24:55.234 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #85)
+14:24:55.234 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:55.235 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #86, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["go_back_header_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:55.235 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #86)...
+14:24:55.235 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [go_back_header_button, false]
+14:24:55.235 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:55.235 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "go_back_header_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@c3781f]
+14:24:56.315 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #86)
+14:24:56.315 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:56.321 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #87, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["more_screen_item_debug_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:24:56.321 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #87)...
+14:24:56.321 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [more_screen_item_debug_button, false]
+14:24:56.322 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "more_screen_item_debug_button" and view has effective visibility <VISIBLE>)]
+14:24:56.322 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:24:56.322 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@e7db318, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:24:56.323 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "more_screen_item_debug_button" and view has effective visibility <VISIBLE>)
+14:24:56.323 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #87)
+14:24:56.323 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:56.325 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #88, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_home_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:56.325 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #88)...
+14:24:56.325 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_home_main_tab_button, false]
+14:24:56.326 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:56.326 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_home_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@4a6c171]
+14:24:56.358 31452 31452 I Detox   : UIManagerModule is busy
+14:24:57.382 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #88)
+14:24:57.382 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:57.387 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #89, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_logged_in_header_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":2}]})
+14:24:57.388 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #89)...
+14:24:57.388 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_logged_in_header_button, false]
+14:24:57.388 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "user_logged_in_header_button" and view has effective visibility <VISIBLE>)]
+14:24:57.388 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:24:57.388 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@434317c, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 2.0]
+14:24:57.389 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "user_logged_in_header_button" and view has effective visibility <VISIBLE>)
+14:24:57.389 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #89)
+14:24:57.389 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:57.391 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #90, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Hi Testone!",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:24:57.391 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #90)...
+14:24:57.392 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Hi Testone!, false]
+14:24:57.392 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Hi Testone!" and view has effective visibility <VISIBLE>)]
+14:24:57.392 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:24:57.392 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@3350a05, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:24:57.393 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Hi Testone!" and view has effective visibility <VISIBLE>)
+14:24:57.393 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #90)
+14:24:57.393 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:57.395 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #91, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_mode_selector",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:57.395 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #91)...
+14:24:57.395 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_mode_selector, false]
+14:24:57.395 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:57.395 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_mode_selector" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@dce348b]
+14:24:58.481 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #91)
+14:24:58.481 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:58.485 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #92, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_mode_pickup_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":2}]})
+14:24:58.485 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #92)...
+14:24:58.486 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_mode_pickup_button, false]
+14:24:58.486 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)]
+14:24:58.486 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:24:58.486 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@126202a, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 2.0]
+14:24:58.489 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)
+14:24:58.692 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)
+14:24:58.849 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)
+14:24:59.018 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)
+14:24:59.180 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)
+14:24:59.506 31452 31452 I Detox   : UIManagerModule is busy
+14:24:59.544 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:59.560 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:59.577 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:59.594 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:24:59.610 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:59.627 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:24:59.668 31452 31452 I Detox   : UIManagerModule is busy
+14:24:59.728 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>)
+14:24:59.729 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #92)
+14:24:59.729 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:24:59.731 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #93, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_mode_pickup_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:24:59.731 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #93)...
+14:24:59.731 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_mode_pickup_button, false]
+14:24:59.732 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:24:59.732 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_mode_pickup_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@7e8ce57]
+14:25:00.814 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #93)
+14:25:00.814 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:00.817 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #94, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForShallowAccessibilityLabel","args":["Unable to retrieve location",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]})
+14:25:00.817 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #94)...
+14:25:00.817 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForShallowAccessibilityLabel, [Unable to retrieve location, false]
+14:25:00.817 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)]
+14:25:00.817 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:00.817 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@f8454fb, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 3.0]
+14:25:00.819 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:01.023 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:01.181 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:01.350 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:01.514 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:01.681 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:01.848 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:02.011 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:02.179 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:02.345 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:02.464 31452 31530 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DialogManagerAndroid)
+14:25:02.464 31452 31530 D Detox.RNMarker: CREATE_MODULE_START (DialogManagerAndroid)
+14:25:02.464 31452 31530 D Detox.RNMarker: CREATE_MODULE_END (DialogManagerAndroid)
+14:25:02.464 31452 31530 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DialogManagerAndroid)
+14:25:02.550 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view ((view.getContentDescription() is "Unable to retrieve location" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Unable to retrieve location") and view has effective visibility <VISIBLE>)
+14:25:02.551 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #94)
+14:25:02.551 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:02.553 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #95, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForShallowAccessibilityLabel","args":["TRY AGAIN",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:02.553 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #95)...
+14:25:02.553 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForShallowAccessibilityLabel, [TRY AGAIN, false]
+14:25:02.553 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:02.553 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [((view.getContentDescription() is "TRY AGAIN" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "TRY AGAIN") and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@7eab05a]
+14:25:02.618 31452 31452 I Detox   : UIManagerModule is busy
+14:25:03.001 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #95)
+14:25:03.001 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:03.006 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #96, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["search_with_results_textinput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"typeText","args":["08837"]}}]})
+14:25:03.006 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #96)...
+14:25:03.007 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [search_with_results_textinput, false]
+14:25:03.007 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, typeText, [08837]
+14:25:03.007 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "search_with_results_textinput" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.DetoxTypeTextAction@f49baf1]
+14:25:03.434 31452 31452 I Detox   : UIManagerModule is busy
+14:25:03.449 31452 31452 I Detox   : UIManagerModule is busy
+14:25:03.982 31452 31452 I Detox   : UIManagerModule is busy
+14:25:03.995 31452 31452 I Detox   : UIManagerModule is busy
+14:25:04.502 31452 31452 I Detox   : UIManagerModule is busy
+14:25:05.138 31452 31452 I Detox   : UIManagerModule is busy
+14:25:05.146 31452 31452 I Detox   : UIManagerModule is busy
+14:25:05.686 31452 31452 I Detox   : UIManagerModule is busy
+14:25:05.695 31452 31452 I Detox   : UIManagerModule is busy
+14:25:05.755 31452 31452 I Detox   : UIManagerModule is busy
+14:25:05.763 31452 31452 I Detox   : UIManagerModule is busy
+14:25:06.446 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #96)
+14:25:06.446 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:06.450 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #97, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["search_with_results_index_1_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:06.450 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #97)...
+14:25:06.450 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [search_with_results_index_1_button, false]
+14:25:06.451 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:06.451 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "search_with_results_index_1_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@61242e3]
+14:25:06.866 31452 31452 I Detox   : UIManagerModule is busy
+14:25:07.742 31452 31452 I Detox   : UIManagerModule is busy
+14:25:08.116 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #97)
+14:25:08.116 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:08.122 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #98, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_list_tab",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:08.122 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #98)...
+14:25:08.122 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_list_tab, false]
+14:25:08.122 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:08.122 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "store_listing_list_tab" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@62de59]
+14:25:08.163 31452 31452 I Detox   : UIManagerModule is busy
+14:25:08.830 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #98)
+14:25:08.830 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:08.834 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #99, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_reserve_timeslot_index_0_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}}]})
+14:25:08.834 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #99)...
+14:25:08.834 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_reserve_timeslot_index_0_button, false]
+14:25:08.834 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "store_listing_reserve_timeslot_index_0_button" and view has effective visibility <VISIBLE>)]
+14:25:08.834 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+14:25:08.834 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@cbb9a2a, not null]
+14:25:08.835 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view (view.getTag() is "store_listing_reserve_timeslot_index_0_button" and view has effective visibility <VISIBLE>)
+14:25:08.835 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #99)
+14:25:08.836 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:08.839 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #100, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcherWithSearchAction","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_select_store_index_1_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"scrollInDirectionStaleAtEdge","args":[{"type":"Integer","value":4},{"type":"Double","value":50},{"type":"Double","value":-1},{"type":"Double","value":-1}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_list_scrollview",{"type":"boolean","value":false}]}}]})
+14:25:08.840 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #100)...
+14:25:08.840 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_select_store_index_1_button, false]
+14:25:08.840 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "store_listing_select_store_index_1_button" and view has effective visibility <VISIBLE>)]
+14:25:08.840 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:08.840 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAction, scrollInDirectionStaleAtEdge, [4, 50.0, -1.0, -1.0]
+14:25:08.840 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_list_scrollview, false]
+14:25:08.840 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcherWithSearchAction, [androidx.test.espresso.ViewInteraction@a1f95b8, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), com.wix.detox.espresso.scroll.DetoxScrollActionStaleAtEdge@360ff91, (view.getTag() is "store_list_scrollview" and view has effective visibility <VISIBLE>)]
+14:25:08.841 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "store_listing_select_store_index_1_button" and view has effective visibility <VISIBLE>)
+14:25:08.987 31452 31452 D DetoxScrollHelper: prescroll amountDP=50.0 amountPx=150 scrollableRangePx=2563 times=0 remainder=150
+14:25:08.987 31452 31452 D DetoxScrollHelper: System gesture insets: Insets{left=0, top=187, right=0, bottom=144} minX=6 minY=193 maxX=1338.0 maxY=2842.0 currentX=672 currentY=2845
+14:25:08.987 31452 31452 D DetoxScrollHelper: scroll Point(672, 2842) --> Point(672, 2668)
+14:25:09.679 31452 31530 W ReactNativeJS: 'node handle not found', 'Make sure you are focusing accessible component'
+14:25:10.236 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "store_listing_select_store_index_1_button" and view has effective visibility <VISIBLE>)
+14:25:10.383 31452 31452 D DetoxScrollHelper: prescroll amountDP=50.0 amountPx=150 scrollableRangePx=2563 times=0 remainder=150
+14:25:10.383 31452 31452 D DetoxScrollHelper: System gesture insets: Insets{left=0, top=187, right=0, bottom=144} minX=6 minY=193 maxX=1338.0 maxY=2842.0 currentX=672 currentY=2845
+14:25:10.383 31452 31452 D DetoxScrollHelper: scroll Point(672, 2842) --> Point(672, 2668)
+14:25:11.530 31452 31452 W DetoxScrollHelper: Detected a possibly overly-running fling! (#iterations=2)
+14:25:11.531 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "store_listing_select_store_index_1_button" and view has effective visibility <VISIBLE>)
+14:25:11.532 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #100)
+14:25:11.532 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:11.534 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #101, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["store_listing_select_store_index_1_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:11.534 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #101)...
+14:25:11.534 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [store_listing_select_store_index_1_button, false]
+14:25:11.534 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:11.534 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "store_listing_select_store_index_1_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@9c4df7e]
+14:25:12.145 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:12.160 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:12.177 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:12.193 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:13.003 31452 31452 I Detox   : UIManagerModule is busy
+14:25:13.031 31452 31452 I Detox   : UIManagerModule is busy
+14:25:17.180 31452 31452 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@0@com.wakefern.shoprite>
+14:25:20.879 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:25:20.894 31452 31452 I Detox   : Network is busy, with 3 in-flight calls
+14:25:20.914 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:25:20.952 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:25:20.963 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:25:20.979 31452 31452 I Detox   : Network is busy, with 2 in-flight calls
+14:25:20.995 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.010 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.030 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.047 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.062 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.078 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.095 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.110 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.128 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.145 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.160 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.180 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.195 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.210 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.230 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.243 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.260 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.278 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.293 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.310 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.327 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.345 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.362 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.379 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.395 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.411 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.430 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.446 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.461 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.477 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:21.536 31452 31509 D DetoxWSClient: Received action 'currentStatus' (ID #102, params={})
+14:25:21.536 31452 31506 I DetoxDispatcher: Handling action 'currentStatus' (ID #102)...
+14:25:21.536 31452 31452 I Detox   : UIManagerModule is busy
+14:25:21.537 31452 31506 I DetoxWSClient: Sending out action 'currentStatusResult' (ID #102)
+14:25:21.537 31452 31506 I DetoxDispatcher: Done with action 'currentStatus'
+14:25:21.637 31452 31452 I Detox   : UIManagerModule is busy
+14:25:22.279 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #101)
+14:25:22.279 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:22.282 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #103, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_more_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:22.282 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #103)...
+14:25:22.282 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_more_main_tab_button, false]
+14:25:22.282 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:22.283 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_more_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@d478fef]
+14:25:23.346 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #103)
+14:25:23.346 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:23.352 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #104, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcherWithSearchAction","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["more_screen_item_promotions_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"scrollInDirectionStaleAtEdge","args":[{"type":"Integer","value":4},{"type":"Double","value":50},{"type":"Double","value":-1},{"type":"Double","value":-1}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["more_screen_scrollview",{"type":"boolean","value":false}]}}]})
+14:25:23.352 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #104)...
+14:25:23.352 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [more_screen_item_promotions_button, false]
+14:25:23.352 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "more_screen_item_promotions_button" and view has effective visibility <VISIBLE>)]
+14:25:23.352 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:23.352 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAction, scrollInDirectionStaleAtEdge, [4, 50.0, -1.0, -1.0]
+14:25:23.352 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [more_screen_scrollview, false]
+14:25:23.352 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcherWithSearchAction, [androidx.test.espresso.ViewInteraction@d92b07f, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), com.wix.detox.espresso.scroll.DetoxScrollActionStaleAtEdge@a76084c, (view.getTag() is "more_screen_scrollview" and view has effective visibility <VISIBLE>)]
+14:25:23.354 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "more_screen_item_promotions_button" and view has effective visibility <VISIBLE>)
+14:25:23.354 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #104)
+14:25:23.354 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:23.356 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #105, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["more_screen_item_promotions_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:23.356 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #105)...
+14:25:23.356 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [more_screen_item_promotions_button, false]
+14:25:23.356 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:23.356 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "more_screen_item_promotions_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@190e095]
+14:25:24.460 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #105)
+14:25:24.460 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:24.462 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #106, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcherWithSearchAction","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["cms_text_box_button",{"type":"boolean","value":false}]}}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"scrollInDirectionStaleAtEdge","args":[{"type":"Integer","value":4},{"type":"Double","value":50},{"type":"Double","value":-1},{"type":"Double","value":-1}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["promotions_screen_scrollview",{"type":"boolean","value":false}]}}]})
+14:25:24.462 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #106)...
+14:25:24.463 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [cms_text_box_button, false]
+14:25:24.463 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "cms_text_box_button" and view has effective visibility <VISIBLE>)]
+14:25:24.463 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [View at index #0, of those matching MATCHER(view.getTag() is "cms_text_box_button" and view has effective visibility <VISIBLE>)]
+14:25:24.463 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:24.463 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAction, scrollInDirectionStaleAtEdge, [4, 50.0, -1.0, -1.0]
+14:25:24.463 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [promotions_screen_scrollview, false]
+14:25:24.463 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcherWithSearchAction, [androidx.test.espresso.ViewInteraction@e10aabd, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), com.wix.detox.espresso.scroll.DetoxScrollActionStaleAtEdge@c4c78b2, (view.getTag() is "promotions_screen_scrollview" and view has effective visibility <VISIBLE>)]
+14:25:24.464 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view View at index #0, of those matching MATCHER(view.getTag() is "cms_text_box_button" and view has effective visibility <VISIBLE>)
+14:25:24.464 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #106)
+14:25:24.464 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:24.466 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #107, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["cms_text_box_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:24.467 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #107)...
+14:25:24.467 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [cms_text_box_button, false]
+14:25:24.467 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "cms_text_box_button" and view has effective visibility <VISIBLE>)]
+14:25:24.467 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:24.467 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #0, of those matching MATCHER(view.getTag() is "cms_text_box_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@478ab80]
+14:25:25.520 31452 31452 I Detox   : UIManagerModule is busy
+14:25:26.081 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #107)
+14:25:26.082 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:26.086 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #108, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["product_list",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":2}]})
+14:25:26.086 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #108)...
+14:25:26.087 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [product_list, false]
+14:25:26.087 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "product_list" and view has effective visibility <VISIBLE>)]
+14:25:26.087 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:26.087 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@704111b, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 2.0]
+14:25:26.088 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "product_list" and view has effective visibility <VISIBLE>)
+14:25:26.088 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #108)
+14:25:26.088 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:26.091 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #109, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["go_back_header_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:26.091 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #109)...
+14:25:26.091 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [go_back_header_button, false]
+14:25:26.091 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:26.091 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "go_back_header_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@fe75891]
+14:25:27.336 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #109)
+14:25:27.336 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:27.341 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #110, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_home_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:27.341 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #110)...
+14:25:27.341 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_home_main_tab_button, false]
+14:25:27.342 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:27.342 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_home_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@d3dd0db]
+14:25:27.376 31452 31452 I Detox   : UIManagerModule is busy
+14:25:27.595 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.610 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.628 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.643 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.660 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.677 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.693 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.711 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.731 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.744 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.760 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.777 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.794 31452 31452 I Detox   : Network is busy, with 1 in-flight calls
+14:25:27.811 31452 31452 I Detox   : UIManagerModule is busy
+14:25:28.395 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #110)
+14:25:28.396 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:28.401 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #111, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_logged_in_header_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:25:28.401 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #111)...
+14:25:28.401 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_logged_in_header_button, false]
+14:25:28.401 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "user_logged_in_header_button" and view has effective visibility <VISIBLE>)]
+14:25:28.402 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:28.402 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@6e357ba, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:25:28.403 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "user_logged_in_header_button" and view has effective visibility <VISIBLE>)
+14:25:28.403 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #111)
+14:25:28.403 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:28.405 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #112, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_logged_in_header_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:28.405 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #112)...
+14:25:28.405 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_logged_in_header_button, false]
+14:25:28.406 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:28.406 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "user_logged_in_header_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@763366b]
+14:25:29.516 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #112)
+14:25:29.516 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:29.520 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #113, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_profile_screen_vertical_scrollview",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]})
+14:25:29.520 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #113)...
+14:25:29.520 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_profile_screen_vertical_scrollview, false]
+14:25:29.520 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "user_profile_screen_vertical_scrollview" and view has effective visibility <VISIBLE>)]
+14:25:29.520 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:29.520 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@bd0854b, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 3.0]
+14:25:29.521 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "user_profile_screen_vertical_scrollview" and view has effective visibility <VISIBLE>)
+14:25:29.521 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #113)
+14:25:29.521 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:29.523 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #114, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_profile_screen_vertical_scrollview",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"scrollToEdge","args":[{"type":"Integer","value":4},{"type":"Double","value":-1},{"type":"Double","value":-1}]}}]})
+14:25:29.523 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #114)...
+14:25:29.524 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_profile_screen_vertical_scrollview, false]
+14:25:29.524 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAction, scrollToEdge, [4, -1.0, -1.0]
+14:25:29.524 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "user_profile_screen_vertical_scrollview" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.DetoxAction$2@c07e041]
+14:25:29.525 31452 31452 D DetoxScrollHelper: System gesture insets: Insets{left=0, top=187, right=0, bottom=144} minX=6 minY=193 maxX=1338.0 maxY=2842.0 currentX=672 currentY=2652
+14:25:29.525 31452 31452 D DetoxScrollHelper: scroll Point(672, 2652) --> Point(672, 239)
+14:25:30.657 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #114)
+14:25:30.657 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:30.662 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #115, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_profile_screen_logout",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:25:30.663 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #115)...
+14:25:30.663 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_profile_screen_logout, false]
+14:25:30.663 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:25:30.663 31452 31505 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "user_profile_screen_logout" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@10271d4]
+14:25:31.148 31452 31530 I ReactNativeJS: couldn't retrieve token wakefernJWT: Unauthorized
+14:25:31.149 31452 31530 I ReactNativeJS: value for key "lastTimeAskedForNotificationsPermission" doesn't exist in storage, removal skipped
+14:25:31.149 31452 31530 I ReactNativeJS: value for key "hasSeenRegistrationScreen" doesn't exist in storage, removal skipped
+14:25:32.410 31452 31452 I Detox   : UIManagerModule is busy
+14:25:32.419 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #115)
+14:25:32.419 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:32.420 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #116, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["user_logged_out_header_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:25:32.421 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #116)...
+14:25:32.421 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [user_logged_out_header_button, false]
+14:25:32.421 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "user_logged_out_header_button" and view has effective visibility <VISIBLE>)]
+14:25:32.421 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:32.421 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@77e3e4d, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:25:32.422 31452 31452 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "user_logged_out_header_button" and view has effective visibility <VISIBLE>)
+14:25:32.422 31452 31505 I DetoxWSClient: Sending out action 'invokeResult' (ID #116)
+14:25:32.422 31452 31505 I DetoxDispatcher: Done with action 'invoke'
+14:25:32.424 31452 31509 D DetoxWSClient: Received action 'invoke' (ID #117, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Hi Testone!",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNot","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]}}]})
+14:25:32.424 31452 31505 I DetoxDispatcher: Handling action 'invoke' (ID #117)...
+14:25:32.424 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Hi Testone!, false]
+14:25:32.424 31452 31505 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Hi Testone!" and view has effective visibility <VISIBLE>)]
+14:25:32.424 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:25:32.424 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNot, [(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:25:32.424 31452 31505 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@44a2d02, not (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]

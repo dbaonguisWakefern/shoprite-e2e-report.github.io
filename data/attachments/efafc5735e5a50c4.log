@@ -1,0 +1,68 @@
+14:31:58.011  3753  3753 I Detox   : Network is busy, with 5 in-flight calls
+14:31:58.011  3753  3753 I Detox   : Network is busy, with 5 in-flight calls
+14:31:58.031  3753  3753 I Detox   : Network is busy, with 5 in-flight calls
+14:31:58.031  3753  3753 I Detox   : Network is busy, with 5 in-flight calls
+14:31:58.043  3753  3753 I Detox   : Network is busy, with 4 in-flight calls
+14:31:58.043  3753  3753 I Detox   : Network is busy, with 4 in-flight calls
+14:31:58.049  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (FastImageView)
+14:31:58.050  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (FastImageView)
+14:31:58.060  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.060  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.080  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.080  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.094  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.094  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.111  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.111  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.127  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.128  3753  3753 I Detox   : Network is busy, with 3 in-flight calls
+14:31:58.143  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.144  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.160  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.161  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.177  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.177  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.194  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.194  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.216  3753  3753 I Detox   : UIManagerModule is busy
+14:31:58.228  3753  3753 I Detox   : Wait is over: App is now idle!
+14:31:58.228  3753  3806 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+14:31:58.231  3753  3806 I DetoxDispatcher: Done with action 'isReady'
+14:31:58.293  3753  3812 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["onboarding_screen_carousel",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]})
+14:31:58.294  3753  3806 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+14:31:58.294  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [onboarding_screen_carousel, false]
+14:31:58.295  3753  3806 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "onboarding_screen_carousel" and view has effective visibility <VISIBLE>)]
+14:31:58.295  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:31:58.295  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@8d0cde3, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 10.0]
+14:31:58.314  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (IntentAndroid)
+14:31:58.314  3753  3834 D Detox.RNMarker: CREATE_MODULE_START (IntentAndroid)
+14:31:58.314  3753  3834 D Detox.RNMarker: CREATE_MODULE_END (IntentAndroid)
+14:31:58.315  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (IntentAndroid)
+14:31:58.315  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (LinkingManager)
+14:31:58.315  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBDynamicLinksModule)
+14:31:58.315  3753  3834 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBDynamicLinksModule)
+14:31:58.341  3753  3834 I ReactNativeJS: couldn't retrieve token wakefernJWT: Unauthorized
+14:31:58.371  3753  3834 I ReactNativeJS: value for key "wakefernJWT" doesn't exist in storage, removal skipped
+14:31:58.463  3753  3753 I Detox   : Network is busy, with 1 in-flight calls
+14:31:58.477  3753  3753 I Detox   : Network is busy, with 1 in-flight calls
+14:31:58.494  3753  3753 I Detox   : Network is busy, with 1 in-flight calls
+14:31:58.510  3753  3753 I Detox   : Network is busy, with 1 in-flight calls
+14:31:58.527  3753  3753 I Detox   : Network is busy, with 1 in-flight calls
+14:31:58.555  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.560  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.577  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.594  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.611  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.628  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.644  3753  3753 I Detox   : Network is busy, with 2 in-flight calls
+14:31:58.677  3753  3753 I Detox   : UIManagerModule is busy
+14:31:59.377  3753  3753 I Detox   : UIManagerModule is busy
+14:31:59.398  3753  3753 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "onboarding_screen_carousel" and view has effective visibility <VISIBLE>)
+14:31:59.400  3753  3806 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+14:31:59.400  3753  3806 I DetoxDispatcher: Done with action 'invoke'
+14:31:59.402  3753  3812 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["onboarding_skip",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:59.402  3753  3806 I DetoxDispatcher: Handling action 'invoke' (ID #2)...
+14:31:59.402  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [onboarding_skip, false]
+14:31:59.402  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:59.403  3753  3806 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "onboarding_skip" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@93a556c]
+14:31:59.744  3753  3785 E Metadata: Google Play services missing or without correct permission.

@@ -1,0 +1,365 @@
+14:32:29.948  4481  4481 E kefern.shoprite: Not starting debugger since process cannot load the jdwp agent.
+14:32:29.992  4481  4498 E DynamiteModule: Invalid GmsCore APK, remote loading disabled.
+14:32:29.993  4481  4498 E DynamiteModule: Invalid GmsCore APK, remote loading disabled.
+14:32:30.007  4481  4516 E FirebaseMessaging: Google Play services missing or without correct permission.
+14:32:30.016  4481  4508 E FirebaseCrashlytics: Settings request failed.
+14:32:30.037  4481  4516 E FirebaseMessaging: Google Play services missing or without correct permission.
+14:32:30.040  4481  4481 E AlarmReceiver: onReceive
+14:32:30.040  4481  4481 E AlarmReceiver: onReceive: android.intent.action.BOOT_COMPLETED, null
+14:32:30.077  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.077  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.077  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.078  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.078  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.078  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.078  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.078  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.078  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.082  4481  4527 E TSLocationManager: ╔═════════════════════════════════════════════
+14:32:30.082  4481  4527 E TSLocationManager: ║ LICENSE VALIDATION FAILURE: com.wakefern.shoprite
+14:32:30.082  4481  4527 E TSLocationManager: ╠═════════════════════════════════════════════
+14:32:30.082  4481  4527 E TSLocationManager: ╟─ Failed to find license key in AndroidManifest.  Ensure you've added the key within <application><meta-data android:name="com.transistorsoft.locationmanager.hms.license" android:value="<YOUR LICENSE KEY>" />
+14:32:30.082  4481  4527 E TSLocationManager: ╚═════════════════════════════════════════════
+14:32:30.094  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.094  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.094  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.098  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.098  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.098  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.118  4481  4520 I TestRunner: started: runDetoxTests(com.thryveai.grocery.DetoxTest)
+14:32:30.120  4481  4520 I Detox   : Detox server connection details: url=ws://localhost:59197, sessionId=7ad005b2-daea-b730-6483-bcd3d90c34bf
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.124  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.125  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.125  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.125  4481  4527 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+14:32:30.125  4481  4527 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+14:32:30.125  4481  4527 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+14:32:30.125  4481  4520 I Detox   : Connecting to server...
+14:32:30.125  4481  4520 I DetoxWSClient: At connectToServer
+14:32:30.131  4481  4538 D DetoxWSClient: At onOpen
+14:32:30.131  4481  4538 I DetoxWSClient: Sending out action 'login' (ID #0)
+14:32:30.132  4481  4538 I Detox   : Connected to server!
+14:32:30.134  4481  4538 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+14:32:30.134  4481  4532 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+14:32:30.134  4481  4532 I DetoxDispatcher: Done with action 'loginSuccess'
+14:32:30.134  4481  4520 I Detox   : Launching the tested activity!
+14:32:30.233  4481  4481 D Detox.RNMarker: BUILD_REACT_INSTANCE_MANAGER_START (null)
+14:32:30.237  4481  4481 E SoLoader: couldn't find DSO to load: libjscexecutor.so
+14:32:30.237  4481  4481 E SoLoader: 	SoSource 0: com.facebook.soloader.DirectorySoSource[root = /data/app/~~N1O6XHr0bUgYRHTbXPJurg==/com.wakefern.shoprite-v_-YrqemkkYHAkJORlO-aw==/lib/arm64 flags = 0]
+14:32:30.237  4481  4481 E SoLoader: 	SoSource 1: com.facebook.soloader.DirectApkSoSource[root = (/data/app/~~4Tk0-quMxK7h1K3Ud07Qrw==/com.wakefern.shoprite.test-w3JuFWGkTSb11ntjEpR19A==/base.apk!/lib/arm64-v8a, /data/app/~~N1O6XHr0bUgYRHTbXPJurg==/com.wakefern.shoprite-v_-YrqemkkYHAkJORlO-aw==/base.apk!/lib/arm64-v8a, )]
+14:32:30.237  4481  4481 E SoLoader: 	SoSource 2: com.facebook.soloader.DirectorySoSource[root = /system/lib64 flags = 2]
+14:32:30.237  4481  4481 E SoLoader: 	SoSource 3: com.facebook.soloader.DirectorySoSource[root = /vendor/lib64 flags = 2]
+14:32:30.237  4481  4481 E SoLoader: 	Native lib dir: /data/app/~~N1O6XHr0bUgYRHTbXPJurg==/com.wakefern.shoprite-v_-YrqemkkYHAkJORlO-aw==/lib/arm64
+14:32:30.237  4481  4481 E SoLoader:  result: 0
+14:32:30.280  4481  4481 D Detox.RNMarker: BUILD_REACT_INSTANCE_MANAGER_END (null)
+14:32:30.280  4481  4481 D Detox.RNMarker: REACT_BRIDGE_LOADING_START (null)
+14:32:30.283  4481  4549 D Detox.RNMarker: CREATE_REACT_CONTEXT_START (HermesExecutorRelease)
+14:32:30.283  4481  4549 D Detox.RNMarker: PROCESS_PACKAGES_START (null)
+14:32:30.284  4481  4549 D Detox.RNMarker: CREATE_MODULE_START (FrescoModule)
+14:32:30.284  4481  4549 D Detox.RNMarker: CREATE_MODULE_END (FrescoModule)
+14:32:30.334  4481  4555 E SDKManifestVerifier: Google Play services are not available: SERVICE_INVALID
+14:32:30.364  4481  4538 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+14:32:30.364  4481  4532 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+14:32:30.389  4481  4549 D Detox.RNMarker: PROCESS_PACKAGES_END (null)
+14:32:30.390  4481  4549 D Detox.RNMarker: CREATE_CATALYST_INSTANCE_START (null)
+14:32:30.396  4481  4566 D Detox.RNMarker: CREATE_REACT_CONTEXT_END (null)
+14:32:30.397  4481  4549 D Detox.RNMarker: CREATE_CATALYST_INSTANCE_END (null)
+14:32:30.397  4481  4549 D Detox.RNMarker: PRE_RUN_JS_BUNDLE_START (null)
+14:32:30.435  4481  4566 D Detox.RNMarker: RUN_JS_BUNDLE_START (index.android.bundle)
+14:32:30.436  4481  4567 D Detox.RNMarker: CREATE_MODULE_START (UIManager)
+14:32:30.440  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RedBox)
+14:32:30.440  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (BugReporting)
+14:32:30.440  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (HeadlessJsTaskSupport)
+14:32:30.440  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (HeadlessJsTaskSupport)
+14:32:30.440  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (HeadlessJsTaskSupport)
+14:32:30.441  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (HeadlessJsTaskSupport)
+14:32:30.441  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (PlatformConstants)
+14:32:30.441  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (PlatformConstants)
+14:32:30.441  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (PlatformConstants)
+14:32:30.442  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (PlatformConstants)
+14:32:30.442  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DeviceInfo)
+14:32:30.442  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (DeviceInfo)
+14:32:30.442  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (DeviceInfo)
+14:32:30.443  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DeviceInfo)
+14:32:30.443  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (UIManager)
+14:32:30.466  4481  4567 D Detox.RNMarker: CREATE_MODULE_END (UIManager)
+14:32:30.469  4481  4567 D Detox.RNMarker: REACT_BRIDGE_LOADING_END (null)
+14:32:30.487  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (UIManager)
+14:32:30.488  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DeviceEventManager)
+14:32:30.488  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (DeviceEventManager)
+14:32:30.488  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (DeviceEventManager)
+14:32:30.488  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DeviceEventManager)
+14:32:30.489  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ReanimatedModule)
+14:32:30.489  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (ReanimatedModule)
+14:32:30.489  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (ReanimatedModule)
+14:32:30.489  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ReanimatedModule)
+14:32:30.489  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (Timing)
+14:32:30.489  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (Timing)
+14:32:30.490  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (Timing)
+14:32:30.490  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (Timing)
+14:32:30.507  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (SoundManager)
+14:32:30.507  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (SoundManager)
+14:32:30.508  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (SoundManager)
+14:32:30.508  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (SoundManager)
+14:32:30.508  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (NativeAnimatedModule)
+14:32:30.508  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (NativeAnimatedModule)
+14:32:30.509  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (NativeAnimatedModule)
+14:32:30.509  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (NativeAnimatedModule)
+14:32:30.509  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (NativeAnimatedTurboModule)
+14:32:30.510  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (FrameRateLogger)
+14:32:30.510  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (KeyboardObserver)
+14:32:30.511  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ImageLoader)
+14:32:30.511  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (ImageLoader)
+14:32:30.511  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (ImageLoader)
+14:32:30.511  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ImageLoader)
+14:32:30.519  4481  4576 E CapabilitiesByQuality: No supported EncoderProfiles
+14:32:30.521  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (BlobModule)
+14:32:30.521  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (BlobModule)
+14:32:30.524  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (BlobModule)
+14:32:30.524  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (BlobModule)
+14:32:30.529  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNSentry)
+14:32:30.530  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (RNSentry)
+14:32:30.530  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (RNSentry)
+14:32:30.530  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNSentry)
+14:32:30.532  4481  4500 E DynamiteModule: Invalid GmsCore APK, remote loading disabled.
+14:32:30.532  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNGestureHandlerModule)
+14:32:30.533  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNGestureHandlerModule)
+14:32:30.535  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (StatusBarManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (StatusBarManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (StatusBarManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (StatusBarManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (I18nManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (I18nManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (I18nManager)
+14:32:30.535  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (I18nManager)
+14:32:30.536  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNDeviceInfo)
+14:32:30.537  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNDeviceInfo)
+14:32:30.538  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBAppModule)
+14:32:30.538  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBAppModule)
+14:32:30.540  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBUtilsModule)
+14:32:30.541  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBUtilsModule)
+14:32:30.541  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBCrashlyticsModule)
+14:32:30.541  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBCrashlyticsModule)
+14:32:30.542  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ReactNativeConfigModule)
+14:32:30.542  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ReactNativeConfigModule)
+14:32:30.544  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNEncryptedStorage)
+14:32:30.545  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNEncryptedStorage)
+14:32:30.545  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (PlatformLocalStorage)
+14:32:30.545  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNC_AsyncSQLiteDBStorage)
+14:32:30.545  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNCAsyncStorage)
+14:32:30.545  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (RNCAsyncStorage)
+14:32:30.546  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (RNCAsyncStorage)
+14:32:30.546  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNCAsyncStorage)
+14:32:30.551  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNCNetInfo)
+14:32:30.552  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNCNetInfo)
+14:32:30.554  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (Networking)
+14:32:30.554  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (Networking)
+14:32:30.555  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (Networking)
+14:32:30.555  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (Networking)
+14:32:30.559  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNCSafeAreaContext)
+14:32:30.559  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (RNCSafeAreaContext)
+14:32:30.559  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (RNCSafeAreaContext)
+14:32:30.560  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNCSafeAreaContext)
+14:32:30.560  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNVectorIconsManager)
+14:32:30.560  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNVectorIconsModule)
+14:32:30.560  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNVectorIconsModule)
+14:32:30.560  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNVectorIconsManager)
+14:32:30.560  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNAppAuth)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNAppAuth)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNCookieManagerIOS)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNCookieManagerAndroid)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNCookieManagerAndroid)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNDeviceBrightness)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNDeviceBrightness)
+14:32:30.561  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (WebviewIosCacheClear)
+14:32:30.568  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFusedLocation)
+14:32:30.568  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFusedLocation)
+14:32:30.568  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNPermissions)
+14:32:30.568  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (RNPermissions)
+14:32:30.568  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (RNPermissions)
+14:32:30.568  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNPermissions)
+14:32:30.577  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ModalManager)
+14:32:30.592  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNInAppBrowser)
+14:32:30.592  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNInAppBrowser)
+14:32:30.592  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AppState)
+14:32:30.592  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (AppState)
+14:32:30.592  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (AppState)
+14:32:30.592  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (AppState)
+14:32:30.608  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNCWebView)
+14:32:30.608  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNCWebView)
+14:32:30.613  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNShare)
+14:32:30.613  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (RNShare)
+14:32:30.613  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (RNShare)
+14:32:30.614  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNShare)
+14:32:30.615  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNSModule)
+14:32:30.615  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (RNSModule)
+14:32:30.616  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (RNSModule)
+14:32:30.616  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNSettings)
+14:32:30.616  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNSettings)
+14:32:30.616  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNBackgroundGeolocation)
+14:32:30.617  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNBackgroundGeolocation)
+14:32:30.618  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (PlatformLocalStorage)
+14:32:30.618  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNC_AsyncSQLiteDBStorage)
+14:32:30.618  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DeliverySolutionUtil)
+14:32:30.619  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DeliverySolutionUtil)
+14:32:30.622  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AddCalendarEvent)
+14:32:30.622  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (AddCalendarEvent)
+14:32:30.622  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFSManager)
+14:32:30.624  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFSManager)
+14:32:30.624  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ImageResizerAndroid)
+14:32:30.624  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ImageResizerAndroid)
+14:32:30.624  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (CameraView)
+14:32:30.624  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (CameraView)
+14:32:30.624  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (CameraDevices)
+14:32:30.625  4481  4566 E CapabilitiesByQuality: No supported EncoderProfiles
+14:32:30.627  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (CameraDevices)
+14:32:30.631  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNAcousticMobilePush)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNAcousticMobilePush)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNAcousticMobilePushActionHandler)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNAcousticMobilePushActionHandler)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (InAppReviewModule)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (InAppReviewModule)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNInAppReviewIOS)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNBootSplash)
+14:32:30.632  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNBootSplash)
+14:32:30.638  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureCore)
+14:32:30.671  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureCore)
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.671  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.671  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeCapture)
+14:32:30.681  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeCapture)
+14:32:30.681  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.681  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.681  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeSelection)
+14:32:30.705  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeSelection)
+14:32:30.705  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.705  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.705  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.705  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.705  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.705  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.705  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeCount)
+14:32:30.807  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeCount)
+14:32:30.808  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.808  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.808  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeTracking)
+14:32:30.818  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeTracking)
+14:32:30.818  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.818  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.819  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.819  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.819  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.819  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.819  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureSparkScan)
+14:32:30.832  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureSparkScan)
+14:32:30.832  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.832  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.832  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodePick)
+14:32:30.845  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodePick)
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.846  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcodeFind)
+14:32:30.846  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcodeFind)
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.846  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.846  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ScanditDataCaptureBarcode)
+14:32:30.854  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ScanditDataCaptureBarcode)
+14:32:30.854  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.854  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.854  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.854  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.858  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNHTMLtoPDF)
+14:32:30.858  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNHTMLtoPDF)
+14:32:30.858  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNPrint)
+14:32:30.858  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNPrint)
+14:32:30.868  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNWalletPasses)
+14:32:30.868  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNWalletPasses)
+14:32:30.869  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+14:32:30.869  4481  4566 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+14:32:30.870  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNRestart)
+14:32:30.870  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNRestart)
+14:32:30.891  4481  4566 D Detox.RNMarker: RUN_JS_BUNDLE_END (index.android.bundle)
+14:32:30.891  4481  4566 I ReactNativeJS: Running "ThryveAIGrocery
+14:32:30.894  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AccessibilityInfo)
+14:32:30.894  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (AccessibilityInfo)
+14:32:30.894  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (AccessibilityInfo)
+14:32:30.894  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (AccessibilityInfo)
+14:32:30.894  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AccessibilityManager)
+14:32:30.912  4481  4481 D Detox.RNMarker: CONTENT_APPEARED (ThryveAIGrocery)
+14:32:30.948  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (SourceCode)
+14:32:30.948  4481  4566 D Detox.RNMarker: CREATE_MODULE_START (SourceCode)
+14:32:30.948  4481  4566 D Detox.RNMarker: CREATE_MODULE_END (SourceCode)
+14:32:30.948  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (SourceCode)
+14:32:30.950  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBAnalyticsModule)
+14:32:30.950  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBAnalyticsModule)
+14:32:30.950  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNFBConfigModule)
+14:32:30.950  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNFBConfigModule)
+14:32:31.152  4481  4481 D DetoxRNLoading: Got new RN-context directly and immediately
+14:32:31.152  4481  4520 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+14:32:31.155  4481  4520 D DetoxRNHelpers: Native RN module resolution (class com.facebook.react.modules.storage.AsyncStorageModule): no such class
+14:32:31.156  4481  4481 I Detox   : UIManagerModule is busy
+14:32:31.156  4481  4532 W kefern.shoprite: Long monitor contention with owner Instr: androidx.test.runner.AndroidJUnitRunner (4520) at void com.wix.detox.DetoxMain.launchActivityOnCue(android.content.Context, com.wix.detox.ActivityLaunchHelper)(DetoxMain.kt:54) waiters=0 in void com.wix.detox.DetoxMain$setupActionHandlers$SynchronizedActionHandler.handle(java.lang.String, long) for 792ms
+14:32:31.165  4481  4481 I Detox   : UIManagerModule is busy
+14:32:31.165  4481  4481 I Detox   : UIManagerModule is busy
+14:32:31.166  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.180  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.197  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.198  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.212  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.213  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.227  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.227  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.244  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.244  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.260  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.260  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.278  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.278  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.294  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.294  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.311  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.311  4481  4481 I Detox   : Network is busy, with 1 in-flight calls
+14:32:31.328  4481  4481 I Detox   : Network is busy, with 4 in-flight calls
+14:32:31.328  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.343  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.343  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.362  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.362  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.378  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.378  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.394  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.394  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.410  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.411  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.422  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (FastImageView)
+14:32:31.423  4481  4566 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (FastImageView)
+14:32:31.427  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.427  4481  4481 I Detox   : Network is busy, with 5 in-flight calls
+14:32:31.444  4481  4481 I Detox   : Network is busy, with 4 in-flight calls
+14:32:31.444  4481  4481 I Detox   : Network is busy, with 4 in-flight calls
+14:32:31.461  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.461  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.477  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.477  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.494  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.494  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.511  4481  4481 I Detox   : Network is busy, with 3 in-flight calls
+14:32:31.511  4481  4481 I Detox   : Network is busy, with 3 in-flight calls

@@ -1,0 +1,28 @@
+14:26:55.540 32194 32194 I Detox   : UIManagerModule is busy
+14:26:55.611 32194 32247 I DetoxWSClient: Sending out action 'invokeResult' (ID #62)
+14:26:55.611 32194 32247 I DetoxDispatcher: Done with action 'invoke'
+14:26:55.662 32194 32251 D DetoxWSClient: Received action 'invoke' (ID #63, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForShallowAccessibilityLabel","args":["Choose Substitutions",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}},{"type":"Double","value":2}]})
+14:26:55.662 32194 32247 I DetoxDispatcher: Handling action 'invoke' (ID #63)...
+14:26:55.662 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForShallowAccessibilityLabel, [Choose Substitutions, false]
+14:26:55.662 32194 32247 D Detox   : class androidx.test.espresso.Espresso, onView, [((view.getContentDescription() is "Choose Substitutions" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Choose Substitutions") and view has effective visibility <VISIBLE>)]
+14:26:55.663 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+14:26:55.663 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@c7763b, not null, 2.0]
+14:26:55.664 32194 32194 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view ((view.getContentDescription() is "Choose Substitutions" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Choose Substitutions") and view has effective visibility <VISIBLE>)
+14:26:55.664 32194 32247 I DetoxWSClient: Sending out action 'invokeResult' (ID #63)
+14:26:55.664 32194 32247 I DetoxDispatcher: Done with action 'invoke'
+14:26:55.667 32194 32251 D DetoxWSClient: Received action 'invoke' (ID #64, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForShallowAccessibilityLabel","args":["OK",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:26:55.667 32194 32247 I DetoxDispatcher: Handling action 'invoke' (ID #64)...
+14:26:55.667 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForShallowAccessibilityLabel, [OK, false]
+14:26:55.667 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:26:55.667 32194 32247 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [((view.getContentDescription() is "OK" or an instance of android.widget.TextView and view.getText() with or without transformation to match: is "OK") and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@a2112b1]
+14:26:56.210 32194 32247 I DetoxWSClient: Sending out action 'invokeResult' (ID #64)
+14:26:56.210 32194 32247 I DetoxDispatcher: Done with action 'invoke'
+14:26:56.212 32194 32251 D DetoxWSClient: Received action 'invoke' (ID #65, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["checkout_continue_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"getAttributes","args":[]}}]})
+14:26:56.212 32194 32247 I DetoxDispatcher: Handling action 'invoke' (ID #65)...
+14:26:56.212 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [checkout_continue_button, false]
+14:26:56.212 32194 32247 D Detox   : class com.wix.detox.espresso.DetoxAction, getAttributes, []
+14:26:56.212 32194 32247 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "checkout_continue_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.GetAttributesAction@a6c8bb8]
+14:26:56.383 32194 32247 I DetoxWSClient: Sending out action 'invokeResult' (ID #65)
+14:26:56.383 32194 32247 I DetoxDispatcher: Done with action 'invoke'
+14:26:56.385 32194 32251 D DetoxWSClient: Received action 'invoke' (ID #66, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["checkout_continue_button",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:26:56.385 32194 32247 I DetoxDispatcher: Handling action 'invoke' (ID #66)...

@@ -1,0 +1,656 @@
+14:31:11.018  3036  3089 I DetoxActionHandlers: Test exception
+14:31:11.018  3036  3089 I DetoxActionHandlers: java.lang.reflect.InvocationTargetException
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:443)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:405)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.types.ClassTarget.execute(ClassTarget.java:23)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.types.Target.invoke(Target.java:59)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:35)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:26)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:20)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.InvokeActionHandler.handle(DetoxActionHandlers.kt:54)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.executeAction$lambda$2$lambda$1(DetoxActionsDispatcher.kt:76)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$LZ3KRuVesIYkeXHJoNMi_yqw1HU(Unknown Source:0)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda0.run(Unknown Source:8)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:317)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor._init_$lambda$0(DetoxActionsDispatcher.kt:62)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$4eWOlZMqOQq2jbqiFbTCEP-pHOY(Unknown Source:0)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda1.run(Unknown Source:4)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.lang.Thread.run(Thread.java:1012)
+14:31:11.018  3036  3089 I DetoxActionHandlers: Caused by: androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+14:31:11.018  3036  3089 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+14:31:11.018  3036  3089 I DetoxActionHandlers:      Got: was null
+14:31:11.018  3036  3089 I DetoxActionHandlers: 
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.lang.Thread.getStackTrace(Thread.java:1841)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.base.AssertionErrorHandler.handleSafely(AssertionErrorHandler.java:35)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.base.AssertionErrorHandler.handleSafely(AssertionErrorHandler.java:26)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:158)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:120)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:387)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:366)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.espresso.DetoxAssertion.assertMatcher(DetoxAssertion.java:37)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	... 20 more
+14:31:11.018  3036  3089 I DetoxActionHandlers: Caused by: junit.framework.AssertionFailedError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+14:31:11.018  3036  3089 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+14:31:11.018  3036  3089 I DetoxActionHandlers:      Got: was null
+14:31:11.018  3036  3089 I DetoxActionHandlers: 
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:620)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.wix.detox.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:51)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:488)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:346)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:319)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:959)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Looper.loopOnce(Looper.java:232)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:317)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+14:31:11.018  3036  3089 I DetoxActionHandlers: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+14:31:11.018  3036  3089 I DetoxWSClient: Sending out action 'testFailed' (ID #29)
+14:31:11.018  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:11.106  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #30, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_shop_departments_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:11.106  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #30)...
+14:31:11.106  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_shop_departments_main_tab_button, false]
+14:31:11.106  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:11.107  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_shop_departments_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@532ff1]
+14:31:11.142  3036  3036 I Detox   : UIManagerModule is busy
+14:31:12.164  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #30)
+14:31:12.164  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:12.168  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #31, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["department_list_screen_department_item",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:12.168  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #31)...
+14:31:12.169  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [department_list_screen_department_item, false]
+14:31:12.169  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "department_list_screen_department_item" and view has effective visibility <VISIBLE>)]
+14:31:12.169  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:12.169  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #0, of those matching MATCHER(view.getTag() is "department_list_screen_department_item" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@3af21de]
+14:31:13.851  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #31)
+14:31:13.851  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:13.853  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #32, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["product_carousel_horizontal_list_item",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:13.854  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #32)...
+14:31:13.854  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [product_carousel_horizontal_list_item, false]
+14:31:13.854  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "product_carousel_horizontal_list_item" and view has effective visibility <VISIBLE>)]
+14:31:13.854  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:13.854  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #0, of those matching MATCHER(view.getTag() is "product_carousel_horizontal_list_item" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@b6a36b3]
+14:31:14.796  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.810  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.827  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.845  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.860  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.877  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.894  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.910  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.927  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.944  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.962  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.977  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:14.994  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:15.011  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:15.028  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:15.044  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:15.061  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:15.464  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #32)
+14:31:15.465  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:15.470  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #33, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_item_add_to_list_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:15.470  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #33)...
+14:31:15.470  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_item_add_to_list_button, false]
+14:31:15.470  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:15.470  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_item_add_to_list_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@af6180a]
+14:31:15.723  3036  3036 I Detox   : UIManagerModule is busy
+14:31:15.749  3036  3036 I Detox   : UIManagerModule is busy
+14:31:15.760  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.777  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.794  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.810  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.827  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.843  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.861  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.877  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.894  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.911  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.927  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.943  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.963  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.979  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:15.998  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:16.012  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:16.544  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.560  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.577  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.593  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.610  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.628  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.643  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.660  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.677  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.694  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.711  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.729  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.745  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.763  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.778  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.797  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.811  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.829  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.843  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.861  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.877  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:16.895  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:17.018  3036  3036 I Detox   : UIManagerModule is busy
+14:31:17.032  3036  3036 I Detox   : UIManagerModule is busy
+14:31:17.045  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.060  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.077  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.093  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.110  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.127  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.144  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.160  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.177  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.193  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.210  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.227  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.245  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.262  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.278  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.295  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.312  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.416  3036  3036 I Detox   : UIManagerModule is busy
+14:31:17.446  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.462  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.477  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.494  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.510  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.527  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.544  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.560  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.578  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.594  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.612  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.627  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.644  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.660  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.677  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.694  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.710  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.727  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.745  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.761  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.777  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.794  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.810  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.827  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.844  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.860  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.877  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.894  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.910  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.927  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.944  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.960  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.978  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:17.994  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.010  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.027  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.044  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.060  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.077  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.094  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.110  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.127  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.144  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.160  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.177  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.194  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.210  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.227  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.244  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.261  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.277  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.294  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.310  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.327  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.344  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.360  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.377  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.394  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.410  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.427  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.444  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.461  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.477  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.494  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.510  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.527  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.544  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.560  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.577  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.594  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.610  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.628  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #33)
+14:31:18.628  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:18.631  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #34, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Added to shopping list",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:31:18.631  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #34)...
+14:31:18.631  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Added to shopping list, false]
+14:31:18.632  3036  3089 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Added to shopping list" and view has effective visibility <VISIBLE>)]
+14:31:18.632  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:31:18.632  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@2917cc5, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:31:18.633  3036  3036 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Added to shopping list" and view has effective visibility <VISIBLE>)
+14:31:18.633  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #34)
+14:31:18.633  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:18.635  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #35, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Dismiss",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:18.635  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #35)...
+14:31:18.635  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Dismiss, false]
+14:31:18.635  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:18.635  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Dismiss" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@540c54b]
+14:31:18.969  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.977  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:18.994  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.010  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.027  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.044  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.060  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.077  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.094  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.110  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.127  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.144  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.160  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.177  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:19.197  3036  3036 I Detox   : UIManagerModule is busy
+14:31:19.278  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #35)
+14:31:19.278  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:19.280  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #36, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_shop_departments_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:19.280  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #36)...
+14:31:19.280  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_shop_departments_main_tab_button, false]
+14:31:19.280  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:19.280  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_shop_departments_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@451b9e6]
+14:31:19.330  3036  3036 I Detox   : UIManagerModule is busy
+14:31:20.662  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #36)
+14:31:20.662  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:20.665  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #37, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":1},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["department_list_screen_department_item",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:20.665  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #37)...
+14:31:20.665  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [department_list_screen_department_item, false]
+14:31:20.665  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [1, (view.getTag() is "department_list_screen_department_item" and view has effective visibility <VISIBLE>)]
+14:31:20.665  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:20.665  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #1, of those matching MATCHER(view.getTag() is "department_list_screen_department_item" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@162350b]
+14:31:22.519  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #37)
+14:31:22.520  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:22.525  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #38, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["product_carousel_horizontal_list_item",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:22.525  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #38)...
+14:31:22.525  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [product_carousel_horizontal_list_item, false]
+14:31:22.525  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "product_carousel_horizontal_list_item" and view has effective visibility <VISIBLE>)]
+14:31:22.526  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:22.526  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #0, of those matching MATCHER(view.getTag() is "product_carousel_horizontal_list_item" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@bfdfd33]
+14:31:23.882  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #38)
+14:31:23.882  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:23.885  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #39, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_item_add_to_list_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:23.886  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #39)...
+14:31:23.886  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_item_add_to_list_button, false]
+14:31:23.886  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:23.886  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_item_add_to_list_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@c376ec9]
+14:31:24.115  3036  3036 I Detox   : UIManagerModule is busy
+14:31:24.146  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.161  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.177  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.194  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.210  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.227  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.244  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.261  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.277  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.294  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.310  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.327  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.343  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.361  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.378  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.394  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.411  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:24.744  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:24.761  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:25.794  3036  3036 I Detox   : UIManagerModule is busy
+14:31:25.828  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.844  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.861  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.878  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.894  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.911  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.927  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.944  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.960  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.977  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:25.994  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.010  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.027  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.044  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.060  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.077  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.094  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.110  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.127  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.144  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.160  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.177  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.194  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.210  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.227  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.244  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.260  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.277  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.294  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.311  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.327  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.344  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.360  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.377  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.394  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.410  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.427  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.444  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.460  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.477  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.494  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.512  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.527  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.544  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.560  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.577  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.594  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.610  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.627  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.644  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.660  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.677  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.694  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.710  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.727  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.744  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.760  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.777  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.794  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.810  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.827  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.844  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.860  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.877  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.894  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.910  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.927  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.944  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.960  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.977  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:26.994  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.019  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #39)
+14:31:27.019  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:27.021  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #40, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Added to shopping list",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:31:27.021  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #40)...
+14:31:27.021  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Added to shopping list, false]
+14:31:27.022  3036  3089 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Added to shopping list" and view has effective visibility <VISIBLE>)]
+14:31:27.022  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:31:27.022  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@8551032, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:31:27.023  3036  3036 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Added to shopping list" and view has effective visibility <VISIBLE>)
+14:31:27.023  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #40)
+14:31:27.023  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:27.025  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #41, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Dismiss",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:27.025  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #41)...
+14:31:27.025  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Dismiss, false]
+14:31:27.025  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:27.025  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Dismiss" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@e21cf00]
+14:31:27.060  3036  3036 I Detox   : UIManagerModule is busy
+14:31:27.061  3036  3036 I Detox   : UIManagerModule is busy
+14:31:27.078  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.095  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.117  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.130  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.160  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.171  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.180  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.196  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.213  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.230  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.247  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.263  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.279  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.296  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.312  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.329  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.346  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.363  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.379  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.400  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.413  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.429  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.446  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.463  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.479  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.496  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.513  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.530  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.546  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.563  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:27.587  3036  3036 I Detox   : UIManagerModule is busy
+14:31:27.602  3036  3036 I Detox   : UIManagerModule is busy
+14:31:27.999  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #41)
+14:31:27.999  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:28.003  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #42, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["item_shop_departments_main_tab_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:28.003  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #42)...
+14:31:28.003  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [item_shop_departments_main_tab_button, false]
+14:31:28.003  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:28.003  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "item_shop_departments_main_tab_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@bef82df]
+14:31:28.046  3036  3036 I Detox   : UIManagerModule is busy
+14:31:29.415  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #42)
+14:31:29.415  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:29.420  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #43, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":2},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["department_list_screen_department_item",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:29.420  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #43)...
+14:31:29.420  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [department_list_screen_department_item, false]
+14:31:29.420  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [2, (view.getTag() is "department_list_screen_department_item" and view has effective visibility <VISIBLE>)]
+14:31:29.420  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:29.420  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #2, of those matching MATCHER(view.getTag() is "department_list_screen_department_item" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@53e7bc0]
+14:31:31.192  3036  3036 I Detox   : UIManagerModule is busy
+14:31:31.629  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #43)
+14:31:31.629  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:31.631  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #44, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForAtIndex","args":[{"type":"Integer","value":0},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["product_carousel_horizontal_list_item",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:31.631  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #44)...
+14:31:31.631  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [product_carousel_horizontal_list_item, false]
+14:31:31.631  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForAtIndex, [0, (view.getTag() is "product_carousel_horizontal_list_item" and view has effective visibility <VISIBLE>)]
+14:31:31.631  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:31.631  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [View at index #0, of those matching MATCHER(view.getTag() is "product_carousel_horizontal_list_item" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@af313ac]
+14:31:32.680  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.694  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.710  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.727  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.744  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.760  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.777  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.794  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.811  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.827  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.845  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.860  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.877  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.894  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.912  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.927  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.945  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.962  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.978  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:32.995  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:33.011  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:33.028  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:33.045  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:33.451  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #44)
+14:31:33.451  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:33.456  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #45, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["shopping_item_add_to_list_button",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:33.456  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #45)...
+14:31:33.456  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [shopping_item_add_to_list_button, false]
+14:31:33.456  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+14:31:33.456  3036  3089 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "shopping_item_add_to_list_button" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@f88b61b]
+14:31:33.700  3036  3036 I Detox   : UIManagerModule is busy
+14:31:33.731  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.746  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.762  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.778  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.795  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.812  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.828  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.848  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.863  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.878  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.895  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.911  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.929  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.945  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.963  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.982  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:33.997  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:34.506  3036  3036 I Detox   : UIManagerModule is busy
+14:31:34.510  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.527  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.543  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.560  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.577  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.594  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.610  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.627  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.645  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.660  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.677  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.693  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.711  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.727  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.745  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.760  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.777  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.794  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.812  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.829  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.845  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.863  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.879  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.895  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.910  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.928  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.944  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.961  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.978  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:34.995  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.013  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.030  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.044  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.061  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.077  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.096  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.111  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.129  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.146  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.164  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.178  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.194  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.212  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.227  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.248  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.261  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.279  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.294  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.313  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.328  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.344  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.361  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.381  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.394  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.410  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.427  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.444  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.461  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.477  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.494  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.510  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.527  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.543  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.560  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.577  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.593  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.610  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.627  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.644  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.661  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.677  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.694  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.710  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.727  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.744  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.761  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.777  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.794  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.810  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.827  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.844  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.861  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.877  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.894  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.910  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.929  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.944  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.960  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.977  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:35.994  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.010  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.027  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.044  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.060  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.077  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.094  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.110  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.127  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.144  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.160  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.177  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.193  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.210  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.227  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.244  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.260  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.278  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.294  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.310  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.327  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.344  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.360  3036  3036 I Detox   : Network is busy, with 1 in-flight calls
+14:31:36.679  3036  3036 I Detox   : UIManagerModule is busy
+14:31:36.702  3036  3036 I Detox   : UIManagerModule is busy
+14:31:36.711  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.727  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.743  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.762  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.779  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.794  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.810  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.828  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.844  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.860  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.879  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.893  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.910  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.927  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.945  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.962  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:36.980  3036  3036 I Detox   : AnimatedModule is busy.
+14:31:37.000  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #45)
+14:31:37.000  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:37.004  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #46, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Added to shopping list",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+14:31:37.004  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #46)...
+14:31:37.004  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Added to shopping list, false]
+14:31:37.004  3036  3089 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Added to shopping list" and view has effective visibility <VISIBLE>)]
+14:31:37.004  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+14:31:37.004  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@7cf2301, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+14:31:37.005  3036  3036 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Added to shopping list" and view has effective visibility <VISIBLE>)
+14:31:37.006  3036  3089 I DetoxWSClient: Sending out action 'invokeResult' (ID #46)
+14:31:37.006  3036  3089 I DetoxDispatcher: Done with action 'invoke'
+14:31:37.007  3036  3098 D DetoxWSClient: Received action 'invoke' (ID #47, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Dismiss",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+14:31:37.007  3036  3089 I DetoxDispatcher: Handling action 'invoke' (ID #47)...
+14:31:37.007  3036  3089 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [

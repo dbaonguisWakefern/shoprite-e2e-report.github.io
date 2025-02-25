@@ -1,0 +1,20 @@
+14:32:21.397  3753  3806 I DetoxWSClient: Sending out action 'invokeResult' (ID #19)
+14:32:21.397  3753  3806 I DetoxDispatcher: Done with action 'invoke'
+14:32:21.445  3753  3812 D DetoxWSClient: Received action 'invoke' (ID #20, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Online Promotions",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}},{"type":"Double","value":10}]})
+14:32:21.445  3753  3806 I DetoxDispatcher: Handling action 'invoke' (ID #20)...
+14:32:21.445  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Online Promotions, false]
+14:32:21.445  3753  3806 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Online Promotions" and view has effective visibility <VISIBLE>)]
+14:32:21.446  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+14:32:21.446  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@fb3ebf9, not null, 10.0]
+14:32:21.447  3753  3753 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Online Promotions" and view has effective visibility <VISIBLE>)
+14:32:21.448  3753  3806 I DetoxWSClient: Sending out action 'invokeResult' (ID #20)
+14:32:21.448  3753  3806 I DetoxDispatcher: Done with action 'invoke'
+14:32:21.453  3753  3812 D DetoxWSClient: Received action 'invoke' (ID #21, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Valid for online orders only.\nSwitch now and save!",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}},{"type":"Double","value":10}]})
+14:32:21.453  3753  3806 I DetoxDispatcher: Handling action 'invoke' (ID #21)...
+14:32:21.453  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Valid for online orders only.
+14:32:21.453  3753  3806 D Detox   : Switch now and save!, false]
+14:32:21.453  3753  3806 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Valid for online orders only.\nSwitch now and save!" and view has effective visibility <VISIBLE>)]
+14:32:21.454  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+14:32:21.454  3753  3806 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@62da99f, not null, 10.0]
+14:32:21.455  3753  3753 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Valid for online orders only.\nSwitch now and save!" and view has effective visibility <VISIBLE>)
+14:32:21.456  3753  3806 I DetoxWSClient: 
